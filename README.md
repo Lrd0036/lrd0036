@@ -4,14 +4,16 @@
   <img alt="Lance Reed Dye. I build things to understand how they work. AI and trust; systems and security; code and play; language and memory." src="assets/cover-light.svg" width="100%">
 </picture>
 
-I'm Lance. I work across AI strategy, security research, systems programming, and writing. Most of my projects start with something I want to understand well enough to take apart, explain, or build myself.
+I'm Lance. If you don't already know me, nice to meet you! Otherwise, my condolences.
 
-Sometimes that becomes a compiler. Sometimes a game. Sometimes a piece of writing that raises more questions than it answers.
+I'm in the midst of an AI transformation project. I also do AI security, responsible AI implementation, and whatever else I feel like doing that month.
+
+I don't like AWS. Mainly gravitate towards Cloudflare/GCP as of right now. 
 
 ### What keeps my attention
 
 - **AI & trust** — Agent behavior, local models, human judgment, and the boundaries between interpretation, authority, and action.
-- **Systems & security** — Reverse engineering, cyber-physical systems, evidence, and the ways software decisions become real-world consequences.
+- **Systems & security** — Reverse engineering, SecOT, Critical Infrastructure, and the ways software decisions become real-world consequences.
 - **Code & play** — Rust, simulations, games, procedural graphics, and interactive experiments that make an idea tangible.
 - **Language & memory** — Writing, archives, cultural memory, and what gets lost when information survives without its original context.
 
@@ -26,6 +28,6 @@ Sometimes that becomes a compiler. Sometimes a game. Sometimes a piece of writin
 | [Timberhold](https://github.com/Lrd0036/timberhold-site) | The public site for a cozy lumber RPG: trees, sawmills, and a little world to build. |
 | [Boguefala](https://boguefala.us) | An interactive archive of systems, language, memory, and provenance. |
 
-I like following a question across disciplines and seeing what changes along the way.
+Experiment first, figure out the security later! (So sorry to my GRC peoples).
 
 <sub>Cover and original vector artwork created in Figma. [Design source and exports](design/README.md).</sub>
