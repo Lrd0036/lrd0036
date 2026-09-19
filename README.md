@@ -15,7 +15,7 @@ I don't like AWS. Mainly gravitate towards Cloudflare/GCP as of right now.
 - **AI & trust** — Agent behavior, local models, human judgment, and the boundaries between interpretation, authority, and action.
 - **Systems & security** — Reverse engineering, SecOT, Critical Infrastructure, and the ways software decisions become real-world consequences.
 - **Code & play** — Rust, simulations, games, procedural graphics, and interactive experiments that make an idea tangible.
-- **Language & memory** — Writing, archives, cultural memory, and what gets lost when information survives without its original context.
+- **Language & memory** — Writing, archives, cultural memory, and what gets lost when information survives without its original context. Most of this stuff goes on [boguefala.us](https://boguefala.us)
 
 ### A few places to start
 
