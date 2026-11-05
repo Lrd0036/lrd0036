@@ -8,8 +8,6 @@ I'm Lance. If you don't already know me, nice to meet you! Otherwise, my condole
 
 I'm in the midst of an AI transformation project. I also do AI security, responsible AI implementation, and whatever else I feel like doing that month.
 
-I don't like AWS. Mainly gravitate towards Cloudflare/GCP as of right now. 
-
 ### What keeps my attention
 
 - **AI & trust** — Agent behavior, local models, human judgment, and the boundaries between interpretation, authority, and action.
