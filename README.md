@@ -26,5 +26,3 @@ Bottom-up thinking?
 | [The Shoe Room](https://theshoeroom.com) | Web dev and CMS I did for a local business. 
 
 "When you don't know what to do, do something." -Jim Fisk
-
-<sub>Cover and original vector artwork created in Figma. [Design source and exports](design/README.md).</sub>
