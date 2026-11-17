@@ -6,9 +6,7 @@
 
 I'm Lance. If you don't already know me, nice to meet you! Otherwise, my condolences.
 
-I'm in the midst of an AI transformation project. I also do AI security, responsible AI implementation, and whatever else I feel like doing that month.
-
-### What keeps my attention
+### 
 
 - **AI & trust** — Agent behavior, local models, human judgment, and the boundaries between interpretation, authority, and action.
 - **Systems & security** — Reverse engineering, SecOT, Critical Infrastructure, and the ways software decisions become real-world consequences.
