@@ -4,7 +4,7 @@
   <img alt="Lance Reed Dye. I build things to understand how they work. AI and trust; systems and security; code and play; language and memory." src="assets/cover-light.svg" width="100%">
 </picture>
 
-I'm Lance. If you don't already know me, nice to meet you! Otherwise, my condolences.
+Bottom-up thinking? 
 
 ### 
 
@@ -15,15 +15,16 @@ I'm Lance. If you don't already know me, nice to meet you! Otherwise, my condole
 
 ### A few places to start
 
-| Project | What I'm exploring |
+| Project | What I'm workin on |
 | :--- | :--- |
-| [Runbook Compiler](https://github.com/Lrd0036/google) | Turning human procedures into bounded, verifiable workflows, with explicit limits on what a model can decide. |
-| [Royal Duke](https://github.com/Lrd0036/SCLC) | A fictional cyber-physical scenario told through an interactive documentary and an optional local process simulation. |
-| [CJIS Security Policy Field Guide](https://github.com/Lrd0036/cjis-secpol-guide) | Making security requirements, evidence, and decision authority easier to reason about. An unofficial educational guide. |
-| [TaxpayerROI](https://github.com/Lrd0036/taxpayer-roi) | Public data, county-level analytics, and questions about fiscal outcomes and equity. |
-| [Timberhold](https://github.com/Lrd0036/timberhold-site) | The public site for a cozy lumber RPG: trees, sawmills, and a little world to build. |
-| [Boguefala](https://boguefala.us) | An interactive archive of systems, language, memory, and provenance. |
+| [OWASP ACS](https://github.com/genai-security-project/agent-control-standard) | OWASP project to stop skynet |
+| [Royal Duke](https://github.com/Lrd0036/SCLC) | Competition presentation for OT-sec. Simulated infrastructure provider gets taken out by privesc + a compromised vendor portal. If I were capable of not being sarcastic, I would just label this is as critical infrastructure security. As long as none of my CISA friends read it, it's fine. |
+| [CJIS Security Policy Field Guide](https://github.com/Lrd0036/cjis-secpol-guide) | CJIS isn't exactly easily accessible public information. So! Here's what I have compiled as study resources. |
+| [TaxpayerROI](https://github.com/Lrd0036/taxpayer-roi) | Early project of mine. Made for a case competition. Neat idea, horrible execution. |
+| [Timberhold](https://github.com/Lrd0036/timberhold-site) | I put out a random little mobile app at one point. I need to pick up some of this work. |
+| [Boguefala](https://boguefala.us) | Design portfolio. |
+| [The Shoe Room](https://theshoeroom.com) | Web dev and CMS I did for a local business. 
 
-Experiment first, figure out the security later! (So sorry to my GRC peoples).
+"When you don't know what to do, do something." -Jim Fisk
 
 <sub>Cover and original vector artwork created in Figma. [Design source and exports](design/README.md).</sub>
