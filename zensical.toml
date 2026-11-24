@@ -1,7 +1,7 @@
 [project]
 site_name = "Lance Reed Dye"
 site_url = "https://lrd0036.github.io/lrd0036/"
-site_description = "I build things to understand how they work. AI and trust, systems and security, code and play, and language and memory."
+site_description = "AI enablement, adoption, and runtime agent governance. Maintainer and Documentation Lead on the OWASP Agent Control Standard."
 site_author = "Lance Reed Dye"
 repo_url = "https://github.com/Lrd0036/lrd0036"
 repo_name = "Lrd0036/lrd0036"
@@ -53,6 +53,11 @@ toggle.name = "Switch to system preference"
 icon = "fontawesome/brands/github"
 link = "https://github.com/Lrd0036"
 name = "GitHub (@Lrd0036)"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/linkedin"
+link = "https://www.linkedin.com/in/lancerdye"
+name = "LinkedIn"
 
 [[project.extra.social]]
 icon = "lucide/globe"
