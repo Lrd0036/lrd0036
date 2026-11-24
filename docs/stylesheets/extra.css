@@ -418,9 +418,11 @@
   gap: 1.25rem;
 }
 
-.md-typeset .lrd-plate {
+.md-typeset figure.lrd-plate {
+  inline-size: 100%;
   margin: 0;
   padding: 0.85rem;
+  text-align: start;
   border-radius: 0.75rem;
   background-color: var(--lrd-card-bg);
   border: 1px solid var(--lrd-border);
@@ -435,13 +437,15 @@
   border: 1px solid var(--lrd-border);
 }
 
-.lrd-plate figcaption {
+.md-typeset figure.lrd-plate figcaption {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: safe center;
   gap: 0.5rem;
-  margin-block-start: 0.7rem;
+  max-inline-size: none;
+  margin: 0.7rem 0 0;
+  font-style: normal;
   font-size: 0.84rem;
 }
 

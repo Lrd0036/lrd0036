@@ -22,11 +22,11 @@ hide:
   </div>
   <div class="lrd-plate-grid">
     <figure class="lrd-plate">
-      <img src="../assets/cover-dark.svg" width="1600" height="740" alt="Dark-mode profile cover plate on Ink (#152925) ground.">
+      <img src="assets/cover-dark.svg" width="1600" height="740" alt="Dark-mode profile cover plate on Ink (#152925) ground.">
       <figcaption><span>Dark cover plate</span><code>assets/cover-dark.svg &middot; 1:48</code></figcaption>
     </figure>
     <figure class="lrd-plate">
-      <img src="../assets/cover-light.svg" width="1600" height="740" alt="Light-mode profile cover plate on Paper (#F3F0E7) ground.">
+      <img src="assets/cover-light.svg" width="1600" height="740" alt="Light-mode profile cover plate on Paper (#F3F0E7) ground.">
       <figcaption><span>Light cover plate</span><code>assets/cover-light.svg &middot; 1:2</code></figcaption>
     </figure>
   </div>
@@ -90,7 +90,7 @@ hide:
     <span class="lrd-eyebrow">800 &times; 800</span>
   </div>
   <div class="lrd-emblem-row">
-    <img class="lrd-emblem-preview" src="../assets/curiosity-emblem.svg" width="240" height="240" loading="lazy" alt="Square curiosity emblem on Paper ground.">
+    <img class="lrd-emblem-preview" src="assets/curiosity-emblem.svg" width="240" height="240" loading="lazy" alt="Square curiosity emblem on Paper ground.">
     <div class="lrd-emblem-notes">
       <p>The <code>assets/</code> directory holds outlined SVG plates (so viewers on GitHub do not need the fonts installed) alongside 2&times; raster PNG exports (<code>3200 &times; 1480</code> covers and <code>1600 &times; 1600</code> square emblem).</p>
       <p>Frames in <a href="https://www.figma.com/design/lOaAGuyeuqAEIcYNOlnp8Y">Figma</a>: <a href="https://www.figma.com/design/lOaAGuyeuqAEIcYNOlnp8Y?node-id=1-2">Light cover (<code>1:2</code>)</a>, <a href="https://www.figma.com/design/lOaAGuyeuqAEIcYNOlnp8Y?node-id=1-48">Dark cover (<code>1:48</code>)</a>, and <a href="https://www.figma.com/design/lOaAGuyeuqAEIcYNOlnp8Y?node-id=1-94">Curiosity emblem (<code>1:94</code>)</a>.</p>
