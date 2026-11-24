@@ -1,54 +1,111 @@
 <svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Curiosity emblem / square">
-<rect width="800" height="800" fill="#F3F0E7"/>
-<g id="The curiosity machine / original vector illustration" clip-path="url(#clip0_1_94)">
-<g id="Orbital system / build, break, understand" clip-path="url(#clip1_1_94)">
-<g id="Group">
-<path id="Vector" d="M70 230H718M70 330H718M70 430H718M70 530H718M150 194V602M250 194V602M350 194V602M450 194V602M550 194V602M650 194V602" stroke="#152925" stroke-opacity="0.08"/>
-<path id="Vector_2" d="M410 568C505.545 568 583 490.545 583 395C583 299.455 505.545 222 410 222C314.455 222 237 299.455 237 395C237 490.545 314.455 568 410 568Z" stroke="#152925" stroke-opacity="0.18"/>
-<path id="Vector_3" d="M410 603C524.875 603 618 509.875 618 395C618 280.125 524.875 187 410 187C295.125 187 202 280.125 202 395C202 509.875 295.125 603 410 603Z" stroke="#152925" stroke-opacity="0.35" stroke-dasharray="2 10"/>
-<path id="Vector_4" d="M86 396H728M410 184V608" stroke="#152925" stroke-opacity="0.25"/>
-<path id="Vector_5" d="M458.659 494.766C609.065 421.408 709.208 317.273 682.334 262.174C655.461 207.074 511.747 221.876 361.341 295.234C210.934 368.592 110.792 472.727 137.665 527.826C164.539 582.926 308.253 568.124 458.659 494.766Z" stroke="#152925" stroke-width="1.5"/>
-<path id="Vector_6" d="M333.4 533.19C461.405 604.144 599.469 599.795 641.774 523.475C684.079 447.154 614.605 327.765 486.6 256.81C358.595 185.856 220.531 190.205 178.226 266.525C135.921 342.846 205.395 462.235 333.4 533.19Z" stroke="#152925" stroke-width="1.5"/>
-<path id="Vector_7" d="M410 521C479.588 521 536 464.588 536 395C536 325.412 479.588 269 410 269C340.412 269 284 325.412 284 395C284 464.588 340.412 521 410 521Z" fill="#F16C45" stroke="#152925" stroke-width="2"/>
-<path id="Vector_8" d="M410 521C436.51 521 458 464.588 458 395C458 325.412 436.51 269 410 269C383.49 269 362 325.412 362 395C362 464.588 383.49 521 410 521Z" stroke="#152925" stroke-width="1.5"/>
-<path id="Vector_9" d="M410 521C460.81 521 502 464.588 502 395C502 325.412 460.81 269 410 269C359.19 269 318 325.412 318 395C318 464.588 359.19 521 410 521Z" stroke="#152925" stroke-width="1.5"/>
-<path id="Vector_10" d="M289 361C369.667 394.333 450.333 394.333 531 361M286 394C368.667 434 451.333 434 534 394M292 429C370.667 469 449.333 469 528 429M306 326C375.333 348 444.667 348 514 326M322 297C380.667 312.333 439.333 312.333 498 297M316 473C378.667 501.667 441.333 501.667 504 473" stroke="#152925" stroke-width="1.5"/>
-<path id="Vector_11" d="M357 388L390 355M375 422L442 355M413 422L446 389" stroke="#F3F0E7" stroke-width="12"/>
-<path id="Vector_12" d="M158 319C167.941 319 176 310.941 176 301C176 291.059 167.941 283 158 283C148.059 283 140 291.059 140 301C140 310.941 148.059 319 158 319Z" fill="#C6D8B0" stroke="#152925" stroke-width="2"/>
-<path id="Vector_13" d="M640 549C646.627 549 652 543.627 652 537C652 530.373 646.627 525 640 525C633.373 525 628 530.373 628 537C628 543.627 633.373 549 640 549Z" fill="#EDD18A" stroke="#152925" stroke-width="2"/>
-<path id="Vector_14" d="M605 265C608.866 265 612 261.866 612 258C612 254.134 608.866 251 605 251C601.134 251 598 254.134 598 258C598 261.866 601.134 265 605 265Z" fill="#152925" stroke="#152925"/>
-<path id="Vector_15" d="M139 535H177M158 516V554M679 378H703M691 366V390" stroke="#152925" stroke-width="2"/>
-<path id="Vector_16" d="M231 223L238 238L255 241L242 252L244 269L231 260L216 267L221 250L210 238L227 237L231 223Z" fill="#EDD18A" stroke="#152925" stroke-width="2"/>
+  <rect width="800" height="800" fill="#F3F0E7"/>
+  <rect x="36" y="36" width="728" height="728" rx="16" stroke="#152925" stroke-opacity="0.14" stroke-width="1.5"/>
+  <g id="emblem-sq-machine" transform="translate(400.00 400.00) scale(1.1800) translate(-400.00 -400.00)">
+  <defs>
+    <radialGradient id="emblem-sq-grid-mask-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="55%" stop-color="white" stop-opacity="1"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="emblem-sq-grid-mask">
+      <ellipse cx="400.00" cy="400.00" rx="310" ry="215" fill="url(#emblem-sq-grid-mask-grad)"/>
+    </mask>
+    <clipPath id="emblem-sq-globe-clip">
+      <circle cx="400.00" cy="400.00" r="107.20"/>
+    </clipPath>
+  </defs>
+
+  <!-- Blueprint coordinate grid -->
+  <g mask="url(#emblem-sq-grid-mask)">
+    <path d="M 120.00 180.00 V 620.00 M 176.00 180.00 V 620.00 M 232.00 180.00 V 620.00 M 288.00 180.00 V 620.00 M 344.00 180.00 V 620.00 M 400.00 180.00 V 620.00 M 456.00 180.00 V 620.00 M 512.00 180.00 V 620.00 M 568.00 180.00 V 620.00 M 624.00 180.00 V 620.00 M 680.00 180.00 V 620.00 M 90.00 232.00 H 710.00 M 90.00 288.00 H 710.00 M 90.00 344.00 H 710.00 M 90.00 400.00 H 710.00 M 90.00 456.00 H 710.00 M 90.00 512.00 H 710.00 M 90.00 568.00 H 710.00" stroke="#152925" stroke-opacity="0.11" stroke-width="1"/>
+  </g>
+
+  <!-- Cardinal reticle & vernier astrolabe ring -->
+  <path d="M 108.00 400.00 H 274.00 M 526.00 400.00 H 692.00 M 400.00 184.00 V 274.00 M 400.00 526.00 V 616.00" stroke="#152925" stroke-opacity="0.28" stroke-width="1.2"/>
+  <circle cx="400.00" cy="400.00" r="198.00" stroke="#152925" stroke-opacity="0.18" stroke-width="1"/>
+  <path d="M 591.77 416.78 L 597.25 417.26 M 589.58 433.43 L 594.99 434.38 M 585.94 449.82 L 591.25 451.25 M 580.89 465.84 L 586.06 467.72 M 574.46 481.35 L 579.45 483.68 M 561.95 493.50 L 571.47 499.00 M 557.69 510.41 L 562.19 513.57 M 547.46 523.74 L 551.68 527.27 M 536.12 536.12 L 540.01 540.01 M 523.74 547.46 L 527.27 551.68 M 510.41 557.69 L 513.57 562.19 M 493.50 561.95 L 499.00 571.47 M 481.35 574.46 L 483.68 579.45 M 465.84 580.89 L 467.72 586.06 M 449.82 585.94 L 451.25 591.25 M 433.43 589.58 L 434.38 594.99 M 416.78 591.77 L 417.26 597.25 M 383.22 591.77 L 382.74 597.25 M 366.57 589.58 L 365.62 594.99 M 350.18 585.94 L 348.75 591.25 M 334.16 580.89 L 332.28 586.06 M 318.65 574.46 L 316.32 579.45 M 306.50 561.95 L 301.00 571.47 M 289.59 557.69 L 286.43 562.19 M 276.26 547.46 L 272.73 551.68 M 263.88 536.12 L 259.99 540.01 M 252.54 523.74 L 248.32 527.27 M 242.31 510.41 L 237.81 513.57 M 238.05 493.50 L 228.53 499.00 M 225.54 481.35 L 220.55 483.68 M 219.11 465.84 L 213.94 467.72 M 214.06 449.82 L 208.75 451.25 M 210.42 433.43 L 205.01 434.38 M 208.23 416.78 L 202.75 417.26 M 208.23 383.22 L 202.75 382.74 M 210.42 366.57 L 205.01 365.62 M 214.06 350.18 L 208.75 348.75 M 219.11 334.16 L 213.94 332.28 M 225.54 318.65 L 220.55 316.32 M 238.05 306.50 L 228.53 301.00 M 242.31 289.59 L 237.81 286.43 M 252.54 276.26 L 248.32 272.73 M 263.88 263.88 L 259.99 259.99 M 276.26 252.54 L 272.73 248.32 M 289.59 242.31 L 286.43 237.81 M 306.50 238.05 L 301.00 228.53 M 318.65 225.54 L 316.32 220.55 M 334.16 219.11 L 332.28 213.94 M 350.18 214.06 L 348.75 208.75 M 366.57 210.42 L 365.62 205.01 M 383.22 208.23 L 382.74 202.75 M 416.78 208.23 L 417.26 202.75 M 433.43 210.42 L 434.38 205.01 M 449.82 214.06 L 451.25 208.75 M 465.84 219.11 L 467.72 213.94 M 481.35 225.54 L 483.68 220.55 M 493.50 238.05 L 499.00 228.53 M 510.41 242.31 L 513.57 237.81 M 523.74 252.54 L 527.27 248.32 M 536.12 263.88 L 540.01 259.99 M 547.46 276.26 L 551.68 272.73 M 557.69 289.59 L 562.19 286.43 M 561.95 306.50 L 571.47 301.00 M 574.46 318.65 L 579.45 316.32 M 580.89 334.16 L 586.06 332.28 M 585.94 350.18 L 591.25 348.75 M 589.58 366.57 L 594.99 365.62 M 591.77 383.22 L 597.25 382.74" stroke="#152925" stroke-opacity="0.34" stroke-width="1.15" stroke-linecap="round"/>
+  <circle cx="400.00" cy="400.00" r="168" stroke="#152925" stroke-opacity="0.26" stroke-width="1.1" stroke-dasharray="3 8"/>
+
+  <!-- Back halves of interlocking orbits (occluded behind central sphere) -->
+  <path d="M 140.46 499.63 A 278.00 92.00 -21.00 0 1 659.54 300.37" stroke="#152925" stroke-opacity="0.48" stroke-width="1.5" stroke-dasharray="6 6" fill="none"/>
+  <path d="M 166.17 290.96 A 258.00 86.00 25.00 0 1 633.83 509.04" stroke="#152925" stroke-opacity="0.42" stroke-width="1.5" stroke-dasharray="4 7" fill="none"/>
+
+  <!-- Central globe (Systems & World) -->
+  <circle cx="400.00" cy="400.00" r="117.00" stroke="#F16C45" stroke-opacity="0.28" stroke-width="1.2" fill="none"/>
+  <circle cx="400.00" cy="400.00" r="108.00" fill="#F16C45" stroke="#152925" stroke-width="2"/>
+  <g clip-path="url(#emblem-sq-globe-clip)">
+    <!-- Subtle terminator shadow for spherical volume -->
+    <path d="M 418.00 282.00 A 102.60 113.40 0 0 1 376.00 518.00 L 528.00 528.00 L 528.00 272.00 Z" fill="#152925" fill-opacity="0.16"/>
+    <g transform="rotate(-14 400.00 400.00)">
+      <ellipse cx="400.00" cy="400.00" rx="38" ry="108.00" stroke="#F3F0E7" stroke-opacity="0.72" stroke-width="1.35" fill="none"/>
+      <ellipse cx="400.00" cy="400.00" rx="76" ry="108.00" stroke="#F3F0E7" stroke-opacity="0.62" stroke-width="1.35" fill="none"/>
+      <line x1="400.00" y1="292.00" x2="400.00" y2="508.00" stroke="#F3F0E7" stroke-opacity="0.62" stroke-width="1.35"/>
+      <path d="M 313.50 328.00 Q 400.00 335.57 486.50 328.00 M 292.18 364.00 Q 400.00 376.78 507.82 364.00 M 286.00 400.00 Q 400.00 418.00 514.00 400.00 M 292.18 436.00 Q 400.00 448.78 507.82 436.00 M 313.50 472.00 Q 400.00 479.57 486.50 472.00" stroke="#F3F0E7" stroke-opacity="0.7" stroke-width="1.35" fill="none"/>
+    </g>
+  </g>
+  <circle cx="400.00" cy="400.00" r="108.00" stroke="#152925" stroke-width="2" fill="none"/>
+
+  <!-- Core emblem badge inside sphere -->
+  <circle cx="400.00" cy="400.00" r="34" fill="#152925" stroke="#F3F0E7" stroke-width="2"/>
+  <path d="M 384.00 407.00 L 398.00 387.00 M 394.00 414.00 L 412.00 388.00 M 406.00 413.00 L 418.00 396.00" stroke="#EDD18A" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Front halves of interlocking orbits (crossing in front of sphere) -->
+  <path d="M 633.83 509.04 A 258.00 86.00 25.00 0 1 166.17 290.96" stroke="#152925" stroke-opacity="0.78" stroke-width="1.65" fill="none"/>
+  <path d="M 659.54 300.37 A 278.00 92.00 -21.00 0 1 140.46 499.63" stroke="#152925" stroke-width="2" fill="none"/>
+
+  <!-- Orbital nodes on exact ellipse coordinates -->
+  <circle cx="196.00" cy="407.42" r="7.5" fill="#C6D8B0" stroke="#152925" stroke-width="2"/>
+  <circle cx="623.96" cy="520.91" r="6.5" fill="#EDD18A" stroke="#152925" stroke-width="2"/>
+  <circle cx="659.80" cy="324.11" r="5" fill="#F3F0E7" stroke="#152925" stroke-width="1.75"/>
+  <circle cx="171.61" cy="332.09" r="5.5" fill="#F16C45" stroke="#152925" stroke-width="1.75"/>
+
+  <!-- Accent compass stars & crosshairs -->
+  <path d="M 296.00 243.00 Q 298.42 251.58 307.00 254.00 Q 298.42 256.42 296.00 265.00 Q 293.58 256.42 285.00 254.00 Q 293.58 251.58 296.00 243.00 Z" fill="#EDD18A" stroke="#152925" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M 666.00 392.00 H 682.00 M 674.00 384.00 V 400.00 M 138.00 522.00 H 154.00 M 146.00 514.00 V 530.00" stroke="#152925" stroke-opacity="0.55" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Totem 1 (Top-Left): Telemetry / Systems & Security Compass -->
+  <g id="emblem-sq-totem-systems">
+    <circle cx="220.00" cy="312.00" r="28" fill="#F3F0E7" stroke="#152925" stroke-width="2"/>
+    <circle cx="220.00" cy="312.00" r="21" stroke="#C6D8B0" stroke-opacity="0.65" stroke-width="1.2" stroke-dasharray="3 3" fill="none"/>
+    <path d="M 220.00 298.00 Q 223.08 308.92 234.00 312.00 Q 223.08 315.08 220.00 326.00 Q 216.92 315.08 206.00 312.00 Q 216.92 308.92 220.00 298.00 Z" fill="#EDD18A" stroke="#152925" stroke-width="1.4" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Totem 2 (Bottom-Left): True 30-deg Isometric Terminal Block (Code & Play) -->
+  <g id="emblem-sq-totem-code">
+    <path d="M 206.00 408.00 L 247.57 432.00 L 247.57 482.00 L 206.00 506.00 L 164.43 482.00 L 164.43 432.00 Z" fill="none" stroke="#152925" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M 206.00 408.00 L 247.57 432.00 L 206.00 456.00 L 164.43 432.00 Z" fill="#F3F0E7" stroke="#152925" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M 164.43 432.00 L 206.00 456.00 L 206.00 506.00 L 164.43 482.00 Z" fill="#C6D8B0" stroke="#152925" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M 206.00 456.00 L 247.57 432.00 L 247.57 482.00 L 206.00 506.00 Z" fill="#1D3631" stroke="#152925" stroke-width="1.8" stroke-linejoin="round"/>
+    <!-- Isometric prompt `>_` sheared onto left 30-deg face -->
+    <g transform="matrix(0.866025 0.5 0 1 174.43 445.00)">
+      <path d="M 0 2 L 11 10 L 0 18 M 16 20 H 29" stroke="#152925" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+    <!-- Isometric signal bars sheared onto right 30-deg face -->
+    <g transform="matrix(0.866025 -0.5 0 1 216.00 471.00)">
+      <line x1="0" y1="0" x2="26" y2="0" stroke="#EDD18A" stroke-width="3.2" stroke-linecap="round"/>
+      <line x1="0" y1="10" x2="20" y2="10" stroke="#C6D8B0" stroke-width="3.2" stroke-linecap="round"/>
+      <line x1="0" y1="20" x2="24" y2="20" stroke="#F16C45" stroke-width="3.2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Totem 3 (Top-Right): Symmetrical Drafting Fountain-Pen Nib (Language & Memory) -->
+  <g id="emblem-sq-totem-language" transform="translate(602.00 332.00) rotate(34)">
+    <g stroke="#152925" stroke-width="4" stroke-linejoin="round" fill="none">
+      <path d="M 0 -44 C 10 -20 25 -2 26 14 L 17 28 H -17 L -26 14 C -25 -2 -10 -20 0 -44 Z"/>
+      <rect x="-18" y="28" width="36" height="10" rx="2"/>
+    </g>
+    <path d="M 0 -44 C 10 -20 25 -2 26 14 L 17 28 H -17 L -26 14 C -25 -2 -10 -20 0 -44 Z" fill="#C6D8B0" stroke="#152925" stroke-width="1.8" stroke-linejoin="round"/>
+    <rect x="-18" y="28" width="36" height="10" rx="2" fill="#EDD18A" stroke="#152925" stroke-width="1.8"/>
+    <line x1="0" y1="-43" x2="0" y2="-8" stroke="#152925" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="-3" r="4.5" fill="#152925"/>
+  </g>
+
+  <!-- Totem 4 (Bottom-Right): Heraldic Verification Shield (AI & Trust) -->
+  <g id="emblem-sq-totem-trust" transform="translate(584.00 498.00)">
+    <path d="M 0 -36 L 31 -24 V 2 C 31 24 15 37 0 44 C -15 37 -31 24 -31 2 V -24 Z" fill="none" stroke="#152925" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M 0 -36 L 31 -24 V 2 C 31 24 15 37 0 44 C -15 37 -31 24 -31 2 V -24 Z" fill="#EDD18A" stroke="#152925" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M 0 -28 L 23 -19 V 1 C 23 18 11 29 0 35 C -11 29 -23 18 -23 1 V -19 Z" fill="none" stroke="#152925" stroke-opacity="0.28" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M -11 2 L -3 10 L 13 -7" fill="none" stroke="#152925" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
 </g>
-</g>
-<g id="Terminal cube, pen nib, and trust shield">
-<g id="Group_2">
-<path id="Vector_17" d="M120 421L211 385L295 432L205 469L120 421Z" fill="#F3F0E7" stroke="#152925" stroke-width="2" stroke-linejoin="round"/>
-<path id="Vector_18" d="M120 421V510L205 557V469L120 421Z" fill="#C6D8B0" stroke="#152925" stroke-width="2" stroke-linejoin="round"/>
-<path id="Vector_19" d="M205 469L295 432V522L205 557V469Z" fill="#152925" stroke="#152925" stroke-width="2" stroke-linejoin="round"/>
-<path id="Vector_20" d="M134 453L155 476L134 477M169 490L189 501" stroke="#152925" stroke-width="4" stroke-linejoin="round"/>
-<g id="Vector_21">
-<path d="M236 479L269 466ZM236 497L269 484ZM236 515L256 507Z" fill="black"/>
-<path d="M236 479L269 466M236 497L269 484M236 515L256 507" stroke="#C6D8B0" stroke-width="3" stroke-linejoin="round"/>
-</g>
-<path id="Vector_22" d="M605 258L666 283L649 356L587 409L562 338L605 258Z" fill="#C6D8B0" stroke="#152925" stroke-width="2" stroke-linejoin="round"/>
-<path id="Vector_23" d="M605 258L613 352M613 352L587 409M613 352L666 283" stroke="#152925" stroke-width="2" stroke-linejoin="round"/>
-<path id="Vector_24" d="M613 359C616.866 359 620 355.866 620 352C620 348.134 616.866 345 613 345C609.134 345 606 348.134 606 352C606 355.866 609.134 359 613 359Z" fill="#152925" stroke="#152925" stroke-width="2" stroke-linejoin="round"/>
-<path id="Vector_25" d="M578 424L608 417M569 441L599 434" stroke="#152925" stroke-width="2" stroke-linejoin="round"/>
-<path id="Vector_26" d="M554 481L590 468L626 481V518C626 548 590 563 590 563C590 563 554 548 554 518V481Z" fill="#EDD18A" stroke="#152925" stroke-width="2" stroke-linejoin="round"/>
-<path id="Vector_27" d="M574 516L586 528L608 500" stroke="#152925" stroke-width="4" stroke-linejoin="round"/>
-<path id="Vector_28" d="M345 233C355 203 386 205 392 229C374 231 362 238 354 252C378 263 397 258 410 242" stroke="#152925" stroke-width="2" stroke-linejoin="round"/>
-</g>
-</g>
-</g>
-</g>
-<defs>
-<clipPath id="clip0_1_94">
-<rect width="708" height="460" fill="white" transform="translate(46 170)"/>
-</clipPath>
-<clipPath id="clip1_1_94">
-<rect width="708" height="460" fill="white" transform="translate(46 170)"/>
-</clipPath>
-</defs>
 </svg>

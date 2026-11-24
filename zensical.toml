@@ -16,18 +16,16 @@ extra_css = ["stylesheets/extra.css"]
 [project.theme]
 variant = "modern"
 language = "en"
-logo = "assets/curiosity-emblem.svg"
-favicon = "assets/curiosity-emblem.svg"
+logo = "assets/emblem-mark.svg"
+favicon = "assets/emblem-mark.svg"
 features = [
   "content.code.copy",
   "content.tooltips",
-  "navigation.footer",
   "navigation.instant",
   "navigation.instant.prefetch",
   "navigation.tabs",
   "navigation.top",
   "navigation.tracking",
-  "search.highlight",
 ]
 
 [project.theme.font]
@@ -59,7 +57,7 @@ name = "GitHub (@Lrd0036)"
 [[project.extra.social]]
 icon = "lucide/globe"
 link = "https://boguefala.us"
-name = "Boguefala Archive"
+name = "Boguefala"
 
 [project.markdown_extensions]
 abbr = {}
@@ -68,7 +66,7 @@ attr_list = {}
 def_list = {}
 footnotes = {}
 md_in_html = {}
-toc.permalink = true
+toc.permalink = false
 pymdownx.betterem = {}
 pymdownx.details = {}
 pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"

@@ -1,0 +1,109 @@
+<svg width="680" height="480" viewBox="0 0 680 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g id="hero-dark-machine" transform="translate(340.00 240.00) scale(0.9800) translate(-340.00 -240.00)">
+  <defs>
+    <radialGradient id="hero-dark-grid-mask-grad" cx="50%" cy="50%" r="50%">
+      <stop offset="55%" stop-color="white" stop-opacity="1"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="hero-dark-grid-mask">
+      <ellipse cx="340.00" cy="240.00" rx="310" ry="215" fill="url(#hero-dark-grid-mask-grad)"/>
+    </mask>
+    <clipPath id="hero-dark-globe-clip">
+      <circle cx="340.00" cy="240.00" r="107.20"/>
+    </clipPath>
+  </defs>
+
+  <!-- Blueprint coordinate grid -->
+  <g mask="url(#hero-dark-grid-mask)">
+    <path d="M 60.00 20.00 V 460.00 M 116.00 20.00 V 460.00 M 172.00 20.00 V 460.00 M 228.00 20.00 V 460.00 M 284.00 20.00 V 460.00 M 340.00 20.00 V 460.00 M 396.00 20.00 V 460.00 M 452.00 20.00 V 460.00 M 508.00 20.00 V 460.00 M 564.00 20.00 V 460.00 M 620.00 20.00 V 460.00 M 30.00 72.00 H 650.00 M 30.00 128.00 H 650.00 M 30.00 184.00 H 650.00 M 30.00 240.00 H 650.00 M 30.00 296.00 H 650.00 M 30.00 352.00 H 650.00 M 30.00 408.00 H 650.00" stroke="#F3F0E7" stroke-opacity="0.11" stroke-width="1"/>
+  </g>
+
+  <!-- Cardinal reticle & vernier astrolabe ring -->
+  <path d="M 48.00 240.00 H 214.00 M 466.00 240.00 H 632.00 M 340.00 24.00 V 114.00 M 340.00 366.00 V 456.00" stroke="#F3F0E7" stroke-opacity="0.28" stroke-width="1.2"/>
+  <circle cx="340.00" cy="240.00" r="198.00" stroke="#F3F0E7" stroke-opacity="0.18" stroke-width="1"/>
+  <path d="M 531.77 256.78 L 537.25 257.26 M 529.58 273.43 L 534.99 274.38 M 525.94 289.82 L 531.25 291.25 M 520.89 305.84 L 526.06 307.72 M 514.46 321.35 L 519.45 323.68 M 501.95 333.50 L 511.47 339.00 M 497.69 350.41 L 502.19 353.57 M 487.46 363.74 L 491.68 367.27 M 476.12 376.12 L 480.01 380.01 M 463.74 387.46 L 467.27 391.68 M 450.41 397.69 L 453.57 402.19 M 433.50 401.95 L 439.00 411.47 M 421.35 414.46 L 423.68 419.45 M 405.84 420.89 L 407.72 426.06 M 389.82 425.94 L 391.25 431.25 M 373.43 429.58 L 374.38 434.99 M 356.78 431.77 L 357.26 437.25 M 323.22 431.77 L 322.74 437.25 M 306.57 429.58 L 305.62 434.99 M 290.18 425.94 L 288.75 431.25 M 274.16 420.89 L 272.28 426.06 M 258.65 414.46 L 256.32 419.45 M 246.50 401.95 L 241.00 411.47 M 229.59 397.69 L 226.43 402.19 M 216.26 387.46 L 212.73 391.68 M 203.88 376.12 L 199.99 380.01 M 192.54 363.74 L 188.32 367.27 M 182.31 350.41 L 177.81 353.57 M 178.05 333.50 L 168.53 339.00 M 165.54 321.35 L 160.55 323.68 M 159.11 305.84 L 153.94 307.72 M 154.06 289.82 L 148.75 291.25 M 150.42 273.43 L 145.01 274.38 M 148.23 256.78 L 142.75 257.26 M 148.23 223.22 L 142.75 222.74 M 150.42 206.57 L 145.01 205.62 M 154.06 190.18 L 148.75 188.75 M 159.11 174.16 L 153.94 172.28 M 165.54 158.65 L 160.55 156.32 M 178.05 146.50 L 168.53 141.00 M 182.31 129.59 L 177.81 126.43 M 192.54 116.26 L 188.32 112.73 M 203.88 103.88 L 199.99 99.99 M 216.26 92.54 L 212.73 88.32 M 229.59 82.31 L 226.43 77.81 M 246.50 78.05 L 241.00 68.53 M 258.65 65.54 L 256.32 60.55 M 274.16 59.11 L 272.28 53.94 M 290.18 54.06 L 288.75 48.75 M 306.57 50.42 L 305.62 45.01 M 323.22 48.23 L 322.74 42.75 M 356.78 48.23 L 357.26 42.75 M 373.43 50.42 L 374.38 45.01 M 389.82 54.06 L 391.25 48.75 M 405.84 59.11 L 407.72 53.94 M 421.35 65.54 L 423.68 60.55 M 433.50 78.05 L 439.00 68.53 M 450.41 82.31 L 453.57 77.81 M 463.74 92.54 L 467.27 88.32 M 476.12 103.88 L 480.01 99.99 M 487.46 116.26 L 491.68 112.73 M 497.69 129.59 L 502.19 126.43 M 501.95 146.50 L 511.47 141.00 M 514.46 158.65 L 519.45 156.32 M 520.89 174.16 L 526.06 172.28 M 525.94 190.18 L 531.25 188.75 M 529.58 206.57 L 534.99 205.62 M 531.77 223.22 L 537.25 222.74" stroke="#F3F0E7" stroke-opacity="0.34" stroke-width="1.15" stroke-linecap="round"/>
+  <circle cx="340.00" cy="240.00" r="168" stroke="#F3F0E7" stroke-opacity="0.26" stroke-width="1.1" stroke-dasharray="3 8"/>
+
+  <!-- Back halves of interlocking orbits (occluded behind central sphere) -->
+  <path d="M 80.46 339.63 A 278.00 92.00 -21.00 0 1 599.54 140.37" stroke="#F3F0E7" stroke-opacity="0.48" stroke-width="1.5" stroke-dasharray="6 6" fill="none"/>
+  <path d="M 106.17 130.96 A 258.00 86.00 25.00 0 1 573.83 349.04" stroke="#F3F0E7" stroke-opacity="0.42" stroke-width="1.5" stroke-dasharray="4 7" fill="none"/>
+
+  <!-- Central globe (Systems & World) -->
+  <circle cx="340.00" cy="240.00" r="117.00" stroke="#F16C45" stroke-opacity="0.28" stroke-width="1.2" fill="none"/>
+  <circle cx="340.00" cy="240.00" r="108.00" fill="#F16C45" stroke="#F3F0E7" stroke-width="2"/>
+  <g clip-path="url(#hero-dark-globe-clip)">
+    <!-- Subtle terminator shadow for spherical volume -->
+    <path d="M 358.00 122.00 A 102.60 113.40 0 0 1 316.00 358.00 L 468.00 368.00 L 468.00 112.00 Z" fill="#152925" fill-opacity="0.16"/>
+    <g transform="rotate(-14 340.00 240.00)">
+      <ellipse cx="340.00" cy="240.00" rx="38" ry="108.00" stroke="#F3F0E7" stroke-opacity="0.72" stroke-width="1.35" fill="none"/>
+      <ellipse cx="340.00" cy="240.00" rx="76" ry="108.00" stroke="#F3F0E7" stroke-opacity="0.62" stroke-width="1.35" fill="none"/>
+      <line x1="340.00" y1="132.00" x2="340.00" y2="348.00" stroke="#F3F0E7" stroke-opacity="0.62" stroke-width="1.35"/>
+      <path d="M 253.50 168.00 Q 340.00 175.57 426.50 168.00 M 232.18 204.00 Q 340.00 216.78 447.82 204.00 M 226.00 240.00 Q 340.00 258.00 454.00 240.00 M 232.18 276.00 Q 340.00 288.78 447.82 276.00 M 253.50 312.00 Q 340.00 319.57 426.50 312.00" stroke="#F3F0E7" stroke-opacity="0.7" stroke-width="1.35" fill="none"/>
+    </g>
+  </g>
+  <circle cx="340.00" cy="240.00" r="108.00" stroke="#F3F0E7" stroke-width="2" fill="none"/>
+
+  <!-- Core emblem badge inside sphere -->
+  <circle cx="340.00" cy="240.00" r="34" fill="#152925" stroke="#F3F0E7" stroke-width="2"/>
+  <path d="M 324.00 247.00 L 338.00 227.00 M 334.00 254.00 L 352.00 228.00 M 346.00 253.00 L 358.00 236.00" stroke="#EDD18A" stroke-width="4.5" stroke-linecap="round"/>
+
+  <!-- Front halves of interlocking orbits (crossing in front of sphere) -->
+  <path d="M 573.83 349.04 A 258.00 86.00 25.00 0 1 106.17 130.96" stroke="#F3F0E7" stroke-opacity="0.78" stroke-width="1.65" fill="none"/>
+  <path d="M 599.54 140.37 A 278.00 92.00 -21.00 0 1 80.46 339.63" stroke="#F3F0E7" stroke-width="2" fill="none"/>
+
+  <!-- Orbital nodes on exact ellipse coordinates -->
+  <circle cx="136.00" cy="247.42" r="7.5" fill="#C6D8B0" stroke="#F3F0E7" stroke-width="2"/>
+  <circle cx="563.96" cy="360.91" r="6.5" fill="#EDD18A" stroke="#F3F0E7" stroke-width="2"/>
+  <circle cx="599.80" cy="164.11" r="5" fill="#F3F0E7" stroke="#152925" stroke-width="1.75"/>
+  <circle cx="111.61" cy="172.09" r="5.5" fill="#F16C45" stroke="#F3F0E7" stroke-width="1.75"/>
+
+  <!-- Accent compass stars & crosshairs -->
+  <path d="M 236.00 83.00 Q 238.42 91.58 247.00 94.00 Q 238.42 96.42 236.00 105.00 Q 233.58 96.42 225.00 94.00 Q 233.58 91.58 236.00 83.00 Z" fill="#EDD18A" stroke="#F3F0E7" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M 606.00 232.00 H 622.00 M 614.00 224.00 V 240.00 M 78.00 362.00 H 94.00 M 86.00 354.00 V 370.00" stroke="#F3F0E7" stroke-opacity="0.55" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Totem 1 (Top-Left): Telemetry / Systems & Security Compass -->
+  <g id="hero-dark-totem-systems">
+    <circle cx="160.00" cy="152.00" r="28" fill="#213D37" stroke="#F3F0E7" stroke-width="2"/>
+    <circle cx="160.00" cy="152.00" r="21" stroke="#C6D8B0" stroke-opacity="0.65" stroke-width="1.2" stroke-dasharray="3 3" fill="none"/>
+    <path d="M 160.00 138.00 Q 163.08 148.92 174.00 152.00 Q 163.08 155.08 160.00 166.00 Q 156.92 155.08 146.00 152.00 Q 156.92 148.92 160.00 138.00 Z" fill="#EDD18A" stroke="#F3F0E7" stroke-width="1.4" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Totem 2 (Bottom-Left): True 30-deg Isometric Terminal Block (Code & Play) -->
+  <g id="hero-dark-totem-code">
+    <path d="M 146.00 248.00 L 187.57 272.00 L 187.57 322.00 L 146.00 346.00 L 104.43 322.00 L 104.43 272.00 Z" fill="none" stroke="#F3F0E7" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M 146.00 248.00 L 187.57 272.00 L 146.00 296.00 L 104.43 272.00 Z" fill="#F3F0E7" stroke="#152925" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M 104.43 272.00 L 146.00 296.00 L 146.00 346.00 L 104.43 322.00 Z" fill="#C6D8B0" stroke="#152925" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M 146.00 296.00 L 187.57 272.00 L 187.57 322.00 L 146.00 346.00 Z" fill="#213D37" stroke="#152925" stroke-width="1.8" stroke-linejoin="round"/>
+    <!-- Isometric prompt `>_` sheared onto left 30-deg face -->
+    <g transform="matrix(0.866025 0.5 0 1 114.43 285.00)">
+      <path d="M 0 2 L 11 10 L 0 18 M 16 20 H 29" stroke="#152925" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    </g>
+    <!-- Isometric signal bars sheared onto right 30-deg face -->
+    <g transform="matrix(0.866025 -0.5 0 1 156.00 311.00)">
+      <line x1="0" y1="0" x2="26" y2="0" stroke="#EDD18A" stroke-width="3.2" stroke-linecap="round"/>
+      <line x1="0" y1="10" x2="20" y2="10" stroke="#C6D8B0" stroke-width="3.2" stroke-linecap="round"/>
+      <line x1="0" y1="20" x2="24" y2="20" stroke="#F16C45" stroke-width="3.2" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Totem 3 (Top-Right): Symmetrical Drafting Fountain-Pen Nib (Language & Memory) -->
+  <g id="hero-dark-totem-language" transform="translate(542.00 172.00) rotate(34)">
+    <g stroke="#F3F0E7" stroke-width="4" stroke-linejoin="round" fill="none">
+      <path d="M 0 -44 C 10 -20 25 -2 26 14 L 17 28 H -17 L -26 14 C -25 -2 -10 -20 0 -44 Z"/>
+      <rect x="-18" y="28" width="36" height="10" rx="2"/>
+    </g>
+    <path d="M 0 -44 C 10 -20 25 -2 26 14 L 17 28 H -17 L -26 14 C -25 -2 -10 -20 0 -44 Z" fill="#C6D8B0" stroke="#152925" stroke-width="1.8" stroke-linejoin="round"/>
+    <rect x="-18" y="28" width="36" height="10" rx="2" fill="#EDD18A" stroke="#152925" stroke-width="1.8"/>
+    <line x1="0" y1="-43" x2="0" y2="-8" stroke="#152925" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="0" cy="-3" r="4.5" fill="#152925"/>
+  </g>
+
+  <!-- Totem 4 (Bottom-Right): Heraldic Verification Shield (AI & Trust) -->
+  <g id="hero-dark-totem-trust" transform="translate(524.00 338.00)">
+    <path d="M 0 -36 L 31 -24 V 2 C 31 24 15 37 0 44 C -15 37 -31 24 -31 2 V -24 Z" fill="none" stroke="#F3F0E7" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M 0 -36 L 31 -24 V 2 C 31 24 15 37 0 44 C -15 37 -31 24 -31 2 V -24 Z" fill="#EDD18A" stroke="#152925" stroke-width="1.8" stroke-linejoin="round"/>
+    <path d="M 0 -28 L 23 -19 V 1 C 23 18 11 29 0 35 C -11 29 -23 18 -23 1 V -19 Z" fill="none" stroke="#152925" stroke-opacity="0.28" stroke-width="1.2" stroke-linejoin="round"/>
+    <path d="M -11 2 L -3 10 L 13 -7" fill="none" stroke="#152925" stroke-width="3.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</g>
+</svg>
