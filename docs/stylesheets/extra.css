@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&display=swap");
+
+:root {
+  --lrd-paper: #f3f0e7;
+  --lrd-ink: #152925;
+  --lrd-orange: #f16c45;
+  --lrd-sage: #c6d8b0;
+  --lrd-gold: #edd18a;
+  --lrd-heading-font: "Fraunces", Georgia, serif;
+}
+
+/* Editorial light palette — Paper (#F3F0E7) & Ink (#152925) */
+:root,
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color: #152925;
+  --md-primary-fg-color--light: #24423c;
+  --md-primary-fg-color--dark: #0d1a17;
+  --md-primary-bg-color: #f3f0e7;
+  --md-primary-bg-color--light: rgba(243, 240, 231, 0.78);
+
+  --md-accent-fg-color: #d9552f;
+  --md-accent-fg-color--transparent: rgba(241, 108, 69, 0.14);
+
+  --md-default-fg-color: #152925;
+  --md-default-fg-color--light: rgba(21, 41, 37, 0.72);
+  --md-default-fg-color--lighter: rgba(21, 41, 37, 0.44);
+  --md-default-fg-color--lightest: rgba(21, 41, 37, 0.1);
+
+  --md-default-bg-color: #f3f0e7;
+  --md-default-bg-color--light: rgba(243, 240, 231, 0.82);
+  --md-default-bg-color--lighter: rgba(243, 240, 231, 0.5);
+  --md-default-bg-color--lightest: rgba(243, 240, 231, 0.2);
+
+  --md-typeset-a-color: #c24622;
+  --md-code-bg-color: #ebe6d8;
+  --md-code-fg-color: #152925;
+  --md-typeset-table-color: rgba(21, 41, 37, 0.14);
+  --md-typeset-table-color--light: rgba(21, 41, 37, 0.04);
+  --md-footer-bg-color: #152925;
+  --md-footer-bg-color--dark: #0f1f1c;
+
+  --color-foreground: 21 41 37;
+  --color-background: 243 240 231;
+  --color-background-subtle: 233 229 217;
+  --color-backdrop: 243 240 231;
+}
+
+/* Editorial dark palette — Ink (#152925) & Paper (#F3F0E7) */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #edd18a;
+  --md-primary-fg-color--light: #f4dfb0;
+  --md-primary-fg-color--dark: #d9b866;
+  --md-primary-bg-color: #152925;
+  --md-primary-bg-color--light: rgba(21, 41, 37, 0.8);
+
+  --md-accent-fg-color: #f16c45;
+  --md-accent-fg-color--transparent: rgba(241, 108, 69, 0.18);
+
+  --md-default-fg-color: #f3f0e7;
+  --md-default-fg-color--light: rgba(243, 240, 231, 0.74);
+  --md-default-fg-color--lighter: rgba(243, 240, 231, 0.44);
+  --md-default-fg-color--lightest: rgba(243, 240, 231, 0.12);
+
+  --md-default-bg-color: #152925;
+  --md-default-bg-color--light: rgba(21, 41, 37, 0.84);
+  --md-default-bg-color--lighter: rgba(21, 41, 37, 0.5);
+  --md-default-bg-color--lightest: rgba(21, 41, 37, 0.2);
+
+  --md-typeset-a-color: #edd18a;
+  --md-code-bg-color: #1c3530;
+  --md-code-fg-color: #f3f0e7;
+  --md-typeset-table-color: rgba(243, 240, 231, 0.14);
+  --md-typeset-table-color--light: rgba(243, 240, 231, 0.04);
+  --md-footer-bg-color: #0f1f1c;
+  --md-footer-bg-color--dark: #0b1715;
+
+  --color-foreground: 243 240 231;
+  --color-background: 21 41 37;
+  --color-background-subtle: 28 53 48;
+  --color-backdrop: 15 31 28;
+}
+
+[data-md-color-scheme="slate"] .md-header__title,
+[data-md-color-scheme="slate"] h1,
+[data-md-color-scheme="slate"] h2,
+[data-md-color-scheme="slate"] h3,
+[data-md-color-scheme="slate"] h4 {
+  color: #f3f0e7;
+}
+
+/* Display typography */
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-header__topic {
+  font-family: var(--lrd-heading-font);
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+/* Cover artwork presentation */
+.lrd-cover img {
+  display: block;
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 1px solid var(--md-default-fg-color--lightest);
+}
+
+/* Swatch chips on the design page */
+.lrd-swatch {
+  display: inline-block;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 0.2rem;
+  vertical-align: -0.14rem;
+  margin-right: 0.35rem;
+  border: 1px solid var(--md-default-fg-color--lighter);
+}

@@ -1,0 +1,85 @@
+[project]
+site_name = "Lance Reed Dye"
+site_url = "https://lrd0036.github.io/lrd0036/"
+site_description = "I build things to understand how they work. AI and trust, systems and security, code and play, and language and memory."
+site_author = "Lance Reed Dye"
+repo_url = "https://github.com/Lrd0036/lrd0036"
+repo_name = "Lrd0036/lrd0036"
+
+nav = [
+  { "Profile" = "index.md" },
+  { "Cover & Design" = "design.md" },
+]
+
+extra_css = ["stylesheets/extra.css"]
+
+[project.theme]
+variant = "modern"
+language = "en"
+logo = "assets/curiosity-emblem.svg"
+favicon = "assets/curiosity-emblem.svg"
+features = [
+  "content.code.copy",
+  "content.tooltips",
+  "navigation.footer",
+  "navigation.instant",
+  "navigation.instant.prefetch",
+  "navigation.tabs",
+  "navigation.top",
+  "navigation.tracking",
+  "search.highlight",
+]
+
+[project.theme.font]
+text = "DM Sans"
+code = "IBM Plex Mono"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[[project.extra.social]]
+icon = "fontawesome/brands/github"
+link = "https://github.com/Lrd0036"
+name = "GitHub (@Lrd0036)"
+
+[[project.extra.social]]
+icon = "lucide/globe"
+link = "https://boguefala.us"
+name = "Boguefala Archive"
+
+[project.markdown_extensions]
+abbr = {}
+admonition = {}
+attr_list = {}
+def_list = {}
+footnotes = {}
+md_in_html = {}
+toc.permalink = true
+pymdownx.betterem = {}
+pymdownx.details = {}
+pymdownx.emoji.emoji_generator = "zensical.extensions.emoji.to_svg"
+pymdownx.emoji.emoji_index = "zensical.extensions.emoji.twemoji"
+pymdownx.highlight.anchor_linenums = true
+pymdownx.highlight.line_spans = "__span"
+pymdownx.highlight.pygments_lang_class = true
+pymdownx.inlinehilite = {}
+pymdownx.keys = {}
+pymdownx.magiclink = {}
+pymdownx.smartsymbols = {}
+pymdownx.superfences = {}
+pymdownx.tabbed.alternate_style = true
+pymdownx.tabbed.combine_header_slug = true
