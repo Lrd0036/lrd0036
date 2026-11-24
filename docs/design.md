@@ -11,8 +11,8 @@ hide:
 </div>
 
 <section class="lrd-design-intro">
-  <h1 class="lrd-design-title">Cover artwork &amp; field-guide system.</h1>
-  <p class="lrd-hero__note">The cover is an editorial field guide to Lance Reed Dye&rsquo;s interests. An astronomical reticle and interlocking orbits connect a telemetry compass, a 30&deg; isometric terminal block, a central globe, a drafting fountain-pen nib, and a verification shield.</p>
+  <h1 class="lrd-design-title">Cover artwork &amp; visual system.</h1>
+  <p class="lrd-hero__note">The cover pairs display typography with an astronomical reticle and interlocking orbits connecting a telemetry compass, a 30&deg; isometric terminal block, a central globe, a drafting fountain-pen nib, and a verification shield.</p>
 </section>
 
 <section class="lrd-section" aria-labelledby="lrd-plates-heading">
